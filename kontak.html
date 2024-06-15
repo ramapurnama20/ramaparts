@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontak Kami - Rama Parts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section style="padding: 20px 30px">
+        <h1>Hubungi Kami</h1>
+        <form style="margin-bottom: 20px;" name="kontak">
+          <section>
+            <label for="name">Nama</label>
+            <input
+              type="text"
+              required
+              name="name"
+              id="name"
+              placeholder="Isi nama anda"
+            />
+          </section>
+          <section>
+            <label for="phone">No. HP</label>
+            <input
+              type="tel"
+              required
+              name="phone"
+              id="phone"
+              placeholder="Isi dengan nomor handphone aktif"
+            />
+          </section>
+          <section>
+            <label for="message">Pesan atau Pertanyaan</label>
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Tuliskan pesan atau pertanyaan anda seputar produk kami"
+              required
+            ></textarea>
+          </section>
+          <button type="submit" class="button">Kirim</button>
+        </form>
+        <a
+          href="./index.html"
+          style="color: white; font-size: large;"
+        >
+          &larr; Kembali ke Beranda
+        </a>
+      </section>
+    </main>
+  </body>
+</html>
